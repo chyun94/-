@@ -2,7 +2,13 @@ package model;
 
 public class VO {
 	private String custname,phone,gender,joindate,grade,city,pcode,sdate,pname;
-	private int  custno,saleno,amount,pcost,stock;
+	private int  custno,saleno,amount,pcost,stock,tot;
+	public int getTot() {
+		return tot;
+	}
+	public void setTot(int tot) {
+		this.tot = tot;
+	}
 	public String getCustname() {
 		return custname;
 	}
