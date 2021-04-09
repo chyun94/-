@@ -7,10 +7,11 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DAPpratice {
+public class DAOpratice {
 	public static Connection getConnection()throws Exception{
 		Class.forName("oracle.jdbc.OracleDriver");
-		Connection conn = DriverManager.getConnection("jdbc:oracle:thin@//localhost:1521/xe","system","123");
+		Connection conn = DriverManager.getConnection
+				("jdbc:oracle:thin@//localhost:1521/xe","system","123");
 		return conn;
 	}
 	//모든 메소드에서 null값을 주는 이유는?

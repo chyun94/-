@@ -3,6 +3,30 @@ package model;
 public class VO {
 	private String custname,phone,gender,joindate,grade,city,pcode,sdate,pname;
 	private int  custno,saleno,amount,pcost,stock,tot;
+	
+	String name;
+	int score,age;
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 	public int getTot() {
 		return tot;
 	}
