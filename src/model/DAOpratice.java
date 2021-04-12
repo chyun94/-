@@ -87,7 +87,7 @@ public class DAOpratice {
 				list.add(m);				
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		return list;
 	}
