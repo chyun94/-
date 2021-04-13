@@ -20,7 +20,7 @@ public class DBconntecting3 {
 				("jdbc:oracle:thin@//localhost:1521/xe","sysytem","123");
 		return conn;
 	}
-	public void insert(VO v) {
+	public void asdinsert(VO v) {
 		String query=" insert into tbl_member_04(custname)values(?)";
 		try {
 			conn = getConnection();
